@@ -1,0 +1,38 @@
+@import url('https://fonts.cdnfonts.com/css/georgia'); 
+body {
+  width: 100%;
+  height: 100%;
+  background-color: slategray;
+}
+h1 {
+  font-size: 20vh;
+  font-family: 'Georgia', serif;
+  text-align: center;
+  color: #BF5E1D;
+  max-width: 80vw;
+}
+
+.description {
+  font-size: 5vh;
+  font-family: Impact, sans-seriff;
+  text-align: center;
+  color: #1D2AFA;
+  max-width: 95vw;
+}
+a {
+  display: flex;
+  justify-content: center;
+  width: 20vw;
+  max-width: 50vw;
+  height: 15vh;
+  max-height: 40vh;
+  font-size: 10vh;
+  font-family: serif;
+  text-decoration: none;
+  border-radius: 7px;
+  border: 1px gray solid;
+  background-image: radial-gradient(#7070E5,#7272D5,#7373C1,#7575A1,#7777A0,#80809F,#808080);
+  text-align: center;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
