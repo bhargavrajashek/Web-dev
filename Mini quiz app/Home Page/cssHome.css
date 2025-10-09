@@ -10,6 +10,7 @@ h1 {
   text-align: center;
   color: #BF5E1D;
   max-width: 80vw;
+  margin: 5vh auto;
 }
 
 .description {
@@ -18,21 +19,33 @@ h1 {
   text-align: center;
   color: #1D2AFA;
   max-width: 95vw;
+  margin: 5vh auto;
 }
 a {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 20vw;
   max-width: 50vw;
   height: 15vh;
   max-height: 40vh;
-  font-size: 10vh;
+  font-size: 5vh;
   font-family: serif;
   text-decoration: none;
-  border-radius: 7px;
-  border: 1px gray solid;
-  background-image: radial-gradient(#7070E5,#7272D5,#7373C1,#7575A1,#7777A0,#80809F,#808080);
+  border-radius: 30%;
+  border: 2px solid slategray;
+  background-image: radial-gradient(circle at 50% 40%, #2d2d6b 0%, #1f1f4a 55%, #141430 100%);
   text-align: center;
   padding-top: 2vh;
   padding-bottom: 2vh;
+  margin: 5vh auto;
+  color: #ffffff;
+}
+hr {
+  height: 2px;
+  background-color: lightslategray;
+  border: 1px solid lightslategray;
+  width: 80%;
+  border-radius: 5%;
+  margin: 2vh auto;
 }
